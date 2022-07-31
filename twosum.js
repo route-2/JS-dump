@@ -8,7 +8,7 @@ for(let i = 0;i<arr.length;i++){
     let diff = target - num1 // 9 - 2 = 7
     if(map.has(diff)){ // if map has 7
        
-        console.log(true)
+        console.log(map.get(diff),num1)
     }
     map.set(arr[i],i)
     console.log(false) 
